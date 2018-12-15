@@ -89,5 +89,6 @@ console.log(nextTrain);
   );
 
   $("#train-table > tbody").append(newRow);
+  $("#current-time").empty();
   $("#current-time").append(currentTime);
 });
